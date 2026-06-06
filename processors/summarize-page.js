@@ -6,6 +6,7 @@ async function summarizePage(filePath, url = "") {
   const result = await analyzePage({
     url,
     content: pageText,
+    screenshot: "pages/page-1.png",
   });
 
   console.log(JSON.stringify({ url, ...result }, null, 2));

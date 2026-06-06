@@ -13,6 +13,7 @@ async function analyzeAllPages() {
     const analysis = await analyzePage({
       url: page.url,
       content: pageText,
+      screenshot: page.screenshot,
     });
 
     const output = {

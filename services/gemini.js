@@ -1,5 +1,6 @@
 require("dotenv").config();
 const { GoogleGenAI } = require("@google/genai");
+const fs = require("fs");
 
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
@@ -15,6 +16,11 @@ const PAGE_ANALYSIS_SCHEMA = {
       type: "array",
       items: { type: "string" },
     },
+
+    visualObservations: {
+      type: "array",
+      items: { type: "string" },
+    },
     summary: { type: "string" },
   },
   required: [
@@ -22,6 +28,7 @@ const PAGE_ANALYSIS_SCHEMA = {
     "purpose",
     "mainCTA",
     "importantSections",
+    "visualObservations",
     "summary",
   ],
 };
@@ -43,20 +50,61 @@ async function analyzeText(text) {
   return response.text;
 }
 
-async function analyzePage({ url, content }) {
+async function analyzePage({ url, content , screenshot }) {
+
+const imageBytes = fs.readFileSync(screenshot);
+const imageBase64 = imageBytes.toString("base64");
+
+console.log("screenshot:", screenshot);
+console.log("base64 length:", imageBase64.length);
+console.log("preview:", imageBase64.slice(0, 80) + "...");
+
   const prompt = `
-Analyze this webpage and return structured metadata about it.
+Analyze this webpage using BOTH:
+
+1. Screenshot
+2. Extracted page text
+
+Determine:
+
+- Page type
+- Page purpose
+- Primary call-to-action
+- Important sections
+- Visual observations
+- Summary
+
+Visual observations should describe:
+
+- Layout structure
+- Design style
+- Prominent buttons
+- Hero sections
+- Navigation
+- Visual hierarchy
+
+Return valid JSON only.
 
 URL:
 ${url}
 
 CONTENT:
 ${content}
+
+
 `;
 
   const response = await ai.models.generateContent({
     model: "gemini-2.5-flash",
-    contents: prompt,
+    contents: [{
+      text: prompt,
+    },
+    {
+      inlineData: {
+        mimeType: "image/png",
+        data: imageBase64,
+      },
+    },],
     config: {
       responseMimeType: "application/json",
       responseJsonSchema: PAGE_ANALYSIS_SCHEMA,
