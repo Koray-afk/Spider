@@ -1,31 +1,14 @@
 const fs = require("fs");
-const { analyzeText } = require("../services/gemini");
+const { analyzePage } = require("../services/gemini");
 
-async function summarizePage(filePath) {
-  const pageText = fs.readFileSync(
-    filePath,
-    "utf-8"
-  );
+async function summarizePage(filePath, url = "") {
+  const pageText = fs.readFileSync(filePath, "utf-8");
+  const result = await analyzePage({
+    url,
+    content: pageText,
+  });
 
-  const prompt = `
-Analyze this webpage.
-
-Return:
-
-1. Page Type
-2. Purpose
-3. Main CTA
-4. Important Sections
-5. Short Summary
-
-Content:
-
-${pageText}
-`;
-
-  const result = await analyzeText(prompt);
-
-  console.log(result);
+  console.log(JSON.stringify({ url, ...result }, null, 2));
 }
 
 summarizePage("pages/page-1.txt");

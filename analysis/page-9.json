@@ -1,0 +1,16 @@
+{
+  "url": "https://playvalorant.com/en-us/arsenal",
+  "pageType": "Arsenal Page",
+  "purpose": "To showcase and describe all available weapons in VALORANT, categorized by their type and highlighting their unique characteristics.",
+  "mainCTA": "PLAY NOW",
+  "importantSections": [
+    "Sidearms",
+    "SMGs",
+    "Shotguns",
+    "Rifles",
+    "Snipers",
+    "Heavies",
+    "Melee"
+  ],
+  "summary": "This page provides a detailed overview of the VALORANT arsenal, listing each weapon by its type (Sidearms, SMGs, Shotguns, Rifles, Snipers, Heavies, Melee) and offering a brief description of its combat utility and style. The primary call to action encourages users to 'PLAY NOW'."
+}

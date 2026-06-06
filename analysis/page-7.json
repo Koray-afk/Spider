@@ -1,0 +1,21 @@
+{
+  "url": "https://playvalorant.com/en-us/maps",
+  "pageType": "Game Maps Listing",
+  "purpose": "To provide detailed information and descriptions for all playable maps in VALORANT, helping players understand their layouts and unique features.",
+  "mainCTA": "PLAY NOW",
+  "importantSections": [
+    "Corrode",
+    "Abyss",
+    "Sunset",
+    "Lotus",
+    "Pearl",
+    "Fracture",
+    "Breeze",
+    "Icebox",
+    "Ascent",
+    "Split",
+    "Haven",
+    "Bind"
+  ],
+  "summary": "This page lists and describes all the playable maps in VALORANT, detailing their unique settings, key features, and strategic elements to help players learn and choose battlegrounds."
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://playvalorant.com/en-us/news",
+  "pageType": "News Page",
+  "purpose": "To inform users about the latest news, updates, and events related to VALORANT, including esports, game updates, community announcements, and merchandise.",
+  "mainCTA": "PLAY NOW",
+  "importantSections": [
+    "ESPORTS",
+    "COMMUNITY",
+    "MERCH",
+    "GAME UPDATES",
+    "ANNOUNCEMENTS"
+  ],
+  "summary": "This page is the official news hub for VALORANT, providing a chronological list of articles covering recent events such as Masters London, game patch notes (12.09, 12.10), community initiatives like Pride Month and NA Community Kits, new merchandise collections, and skin reveals. It serves as a central point for players to stay updated on all aspects of the game."
+}

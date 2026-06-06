@@ -1,70 +1,70 @@
 [
   {
     "pageNumber": 1,
-    "url": "https://www.google.com",
+    "url": "https://playvalorant.com/en-us/?adjust_referrer=adjust_reftag%3DcR0QiehlMCeis&gad_campaignid=18632367525&gad_source=1&gbraid=0AAAAADidvFxKGd7nTP9KE9KVCFV9-lRwI&gclsrc=aw.ds:",
     "screenshot": "pages/page-1.png",
     "html": "pages/page-1.html",
     "text": "pages/page-1.txt"
   },
   {
     "pageNumber": 2,
-    "url": "https://www.google.com/imghp?hl=en&ogbl",
+    "url": "https://playvalorant.com/en-us/platform-selection",
     "screenshot": "pages/page-2.png",
     "html": "pages/page-2.html",
     "text": "pages/page-2.txt"
   },
   {
     "pageNumber": 3,
-    "url": "https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQPAgE",
+    "url": "https://playvalorant.com/en-us/news",
     "screenshot": "pages/page-3.png",
     "html": "pages/page-3.html",
     "text": "pages/page-3.txt"
   },
   {
     "pageNumber": 4,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCY",
+    "url": "https://playvalorant.com/en-us/news/community/happy-pride-month-valorant",
     "screenshot": "pages/page-4.png",
     "html": "pages/page-4.html",
     "text": "pages/page-4.txt"
   },
   {
     "pageNumber": 5,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCc",
+    "url": "https://playvalorant.com/en-us/news/announcements/beginners-guide",
     "screenshot": "pages/page-5.png",
     "html": "pages/page-5.html",
     "text": "pages/page-5.txt"
   },
   {
     "pageNumber": 6,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCg",
+    "url": "https://playvalorant.com/en-us/agents",
     "screenshot": "pages/page-6.png",
     "html": "pages/page-6.html",
     "text": "pages/page-6.txt"
   },
   {
     "pageNumber": 7,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCk",
+    "url": "https://playvalorant.com/en-us/maps",
     "screenshot": "pages/page-7.png",
     "html": "pages/page-7.html",
     "text": "pages/page-7.txt"
   },
   {
     "pageNumber": 8,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCo",
+    "url": "https://playvalorant.com/en-us",
     "screenshot": "pages/page-8.png",
     "html": "pages/page-8.html",
     "text": "pages/page-8.txt"
   },
   {
     "pageNumber": 9,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCs",
+    "url": "https://playvalorant.com/en-us/arsenal",
     "screenshot": "pages/page-9.png",
     "html": "pages/page-9.html",
     "text": "pages/page-9.txt"
   },
   {
     "pageNumber": 10,
-    "url": "https://www.google.com/setprefs?sig=0_BGWwyFhX4G42C5TZuCBqE06PCAw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwj9l5Gd_vGUAxWAV-sIHWfyGjEQ2ZgBCCw",
+    "url": "https://playvalorant.com/en-us/media",
     "screenshot": "pages/page-10.png",
     "html": "pages/page-10.html",
     "text": "pages/page-10.txt"

@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  const startUrl = "https://www.google.com";
+  const startUrl = "https://playvalorant.com/en-us/?adjust_referrer=adjust_reftag%3DcR0QiehlMCeis&gad_campaignid=18632367525&gad_source=1&gbraid=0AAAAADidvFxKGd7nTP9KE9KVCFV9-lRwI&gclsrc=aw.ds:/";
 
   const MAX_PAGES = 10;
 
